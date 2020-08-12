@@ -2958,6 +2958,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4523465675737844195, guid: ddab1255c72389f469ee3ea5f20e6b20,
+        type: 3}
+      propertyPath: m_Volume
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4523465675737844204, guid: ddab1255c72389f469ee3ea5f20e6b20,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3018,11 +3023,6 @@ PrefabInstance:
       propertyPath: movimentoRestantesText
       value: 
       objectReference: {fileID: 988172252}
-    - target: {fileID: 4523465675737844205, guid: ddab1255c72389f469ee3ea5f20e6b20,
-        type: 3}
-      propertyPath: movimentosRestantes
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 4523465675737844206, guid: ddab1255c72389f469ee3ea5f20e6b20,
         type: 3}
       propertyPath: m_Name

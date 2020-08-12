@@ -17,22 +17,16 @@ public class DragAndDropItens : MonoBehaviour
          
         isDragging = true;
         GameController.instance.backgroundSong.Pause();
-       
-       
-    
-
-    if(GameController.instance.movimentosRestantes == 0){
-        Debug.Log("Não faz nada");
-    }else{
-        Time.timeScale = 0;
-    }
-        
-        isPaused = true;
-        
-
-        
-
-    
+        if(GameController.instance.movimentosRestantes == 0){
+            Debug.Log("Não faz nada");
+        }else{
+            
+            Time.timeScale = 0;
+            
+        }
+            
+            isPaused = true;
+   
 }
 public void OnMouseUp()
 {

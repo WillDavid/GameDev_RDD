@@ -105,13 +105,11 @@ public class PlayerBehavior : MonoBehaviour
 
                if(invertePlayer == false){
                    FlipY();
-               }
+               }  
+        }
 
-                    
-                
-                
-                
-            
+        if(other.gameObject.tag == "Botao"){
+            PortaoScript.rotacao.RotatacaoPortao();
         }
 
     }

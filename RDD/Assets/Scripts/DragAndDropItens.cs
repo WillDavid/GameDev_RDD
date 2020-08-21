@@ -5,7 +5,7 @@ using UnityEngine;
 public class DragAndDropItens : MonoBehaviour
 {
     private bool isDragging;
-    private bool isPaused = false;
+   
 
  
    void Update()
@@ -14,28 +14,33 @@ public class DragAndDropItens : MonoBehaviour
         isDraggingVerificacao();
     }
     public void OnMouseDown() {
-         
-        isDragging = true;
-        GameController.instance.backgroundSong.Pause();
-        if(GameController.instance.movimentosRestantes == 0){
-            Debug.Log("Não faz nada");
-        }else{
+
+        if(GameController.instance.isPause != true){
+            isDragging = true;
+            GameController.instance.backgroundSong.Pause();
+            if(GameController.instance.movimentosRestantes == 0){
+                Debug.Log("Não faz nada");
+            }   else{
             
-            Time.timeScale = 0;
+                Time.timeScale = 0;
             
+            }
         }
+         
+        
             
-            isPaused = true;
+          
    
 }
 public void OnMouseUp()
 {
-    isDragging = false;
-
-    Time.timeScale = 1;
-    isPaused = false;
-    GameController.instance.TimeGame();
-    GameController.instance.backgroundSong.Play();
+    if(GameController.instance.isPause != true){
+        isDragging = false;
+        GameController.instance.TimeGame();
+        GameController.instance.backgroundSong.Play();
+        Time.timeScale = 1;
+    }
+    
     
 }
    

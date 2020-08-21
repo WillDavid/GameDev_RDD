@@ -10,6 +10,8 @@ TagManager:
   - Trap
   - ModiGravi
   - Botao
+  - PainelPause
+  - PainelPontoInicial
   layers:
   - Default
   - TransparentFX

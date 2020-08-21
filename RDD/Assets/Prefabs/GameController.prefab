@@ -47,7 +47,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movimentosRestantes: 3
   movimentoRestantesText: {fileID: 0}
+  velocidade: 10000
+  isPause: 0
   backgroundSong: {fileID: 4523465675737844195}
+  panelPause: {fileID: 0}
+  painelPontoInicial: {fileID: 0}
 --- !u!82 &4523465675737844195
 AudioSource:
   m_ObjectHideFlags: 0

@@ -15,7 +15,7 @@ public class DragAndDropItens : MonoBehaviour
     }
     public void OnMouseDown() {
 
-        if(GameController.instance.isPause != true){
+        if(CanvasController.instanceCanvasController.isPause != true){
             isDragging = true;
             GameController.instance.backgroundSong.Pause();
             if(GameController.instance.movimentosRestantes == 0){
@@ -25,16 +25,12 @@ public class DragAndDropItens : MonoBehaviour
                 Time.timeScale = 0;
             
             }
-        }
-         
-        
-            
-          
+        }        
    
 }
 public void OnMouseUp()
 {
-    if(GameController.instance.isPause != true){
+    if(CanvasController.instanceCanvasController.isPause != true){
         isDragging = false;
         GameController.instance.TimeGame();
         GameController.instance.backgroundSong.Play();

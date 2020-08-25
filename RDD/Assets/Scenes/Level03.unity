@@ -128,22 +128,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1675287839, guid: 788f2611b9b3dc241be36c0db18e0d8e, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1477613077}
-    - target: {fileID: 1675287839, guid: 788f2611b9b3dc241be36c0db18e0d8e, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 1866449586, guid: 788f2611b9b3dc241be36c0db18e0d8e, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1477613080}
-    - target: {fileID: 1866449586, guid: 788f2611b9b3dc241be36c0db18e0d8e, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Pause
-      objectReference: {fileID: 0}
     - target: {fileID: 1445388495424874888, guid: 788f2611b9b3dc241be36c0db18e0d8e,
         type: 3}
       propertyPath: m_Camera
@@ -625,24 +609,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eb49c28b614540a4ba774e25ebcafcb5, type: 3}
---- !u!1 &1477613077 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4523465675737844206, guid: ddab1255c72389f469ee3ea5f20e6b20,
-    type: 3}
-  m_PrefabInstance: {fileID: 1930724316}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1477613080 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4523465675737844205, guid: ddab1255c72389f469ee3ea5f20e6b20,
-    type: 3}
-  m_PrefabInstance: {fileID: 1930724316}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1477613077}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b7743c9fe2b4f7f45b96826e5ba63a0d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1584879597
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3846,7 +3812,7 @@ PrefabInstance:
     - target: {fileID: 1771166550556731906, guid: bd036d00702785c4e96ca915352569ee,
         type: 3}
       propertyPath: m_Name
-      value: Camera Confgurada
+      value: CameraConfigurada
       objectReference: {fileID: 0}
     - target: {fileID: 1771166550556732158, guid: bd036d00702785c4e96ca915352569ee,
         type: 3}
@@ -3972,11 +3938,6 @@ PrefabInstance:
       propertyPath: movimentoRestantesText
       value: 
       objectReference: {fileID: 824116912}
-    - target: {fileID: 4523465675737844205, guid: ddab1255c72389f469ee3ea5f20e6b20,
-        type: 3}
-      propertyPath: movimentosRestantes
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 4523465675737844206, guid: ddab1255c72389f469ee3ea5f20e6b20,
         type: 3}
       propertyPath: m_Name
